@@ -192,19 +192,24 @@ span {
     margin: 2rem 0 3rem;
 }
 
-.services h2 {
+.stacks {
     margin-bottom: 5rem;
 }
 
-.services-container {
+.stacks h2 {
+    margin-bottom: 5rem;
+}
+
+.stacks-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    max-resolution: 5rem;
 }
 
-.services-container .services-box {
+.stacks-container .stacks-box {
     flex: 1 1 30rem;
     background: var(--second-bg-color);
     padding: 3rem 2rem 4rem;
@@ -214,21 +219,21 @@ span {
     transition: .5s ease;
 }
 
-.services-container .services-box:hover {
+.stacks-container .stacks-box:hover {
     border-color: var(--main-color);
     transform: scale(1.02);
 }
 
-.services-box i {
+.stacks-box i {
     font-size: 7rem;
     color: var(--main-color);
 }
 
-.services-box h3 {
+.stacks-box h3 {
     font-size: 2.6rem;
 }
 
-.services-box p {
+.stacks-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
@@ -398,7 +403,7 @@ span {
         padding: 10rem 3% 2rem;
     }
 
-    .services {
+    .stacks {
         padding-bottom: 7rem;
     }
 
@@ -464,7 +469,7 @@ span {
         margin-top: 4rem;
     }
 
-    .services h2 {
+    .stacks h2 {
         margin-bottom: 3rem;
     }
 
