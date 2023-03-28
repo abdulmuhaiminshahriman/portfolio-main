@@ -388,13 +388,13 @@ span {
 }
 
 /*BREAKPOINTS*/
-@media screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     html {
         font-size: 55%;
     }
 }
 
-@media screen and (max-width: 991px) {
+@media only screen and (max-width: 991px) {
     .header {
         padding: 2rem 3%;
     }
@@ -416,7 +416,7 @@ span {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     #menu-icon {
         display: block;
     }
@@ -482,13 +482,13 @@ span {
     }
 }
 
-@media screen and (max-width: 617px) {
+@media only screen and (max-width: 617px) {
     .portfolio-container {
         grid-template-columns: 1fr;
     }
 }
 
-@media screen and (max-width: 450px) {
+@media only screen and (max-width: 450px) {
     html {
         font-size: 55%;
     }
@@ -498,7 +498,7 @@ span {
     }
 }
 
-@media screen and (max-width: 365px) {
+@media only screen and (max-width: 365px) {
     .home-img img {
         width: 90vw;
     }
